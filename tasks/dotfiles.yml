@@ -1,0 +1,4 @@
+- file: path=/home/error/src state=directory
+- git: repo=https://github.com/Errorific/dotfiles
+       dest=/home/error/src/dotfiles
+- include: dotfiles/vim.yml

@@ -1,0 +1,3 @@
+- apt: pkg=git state=latest
+- apt: pkg=git-svn state=latest
+- apt: pkg=git-doc state=latest

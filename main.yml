@@ -1,0 +1,8 @@
+- hosts: error
+  tasks: 
+    - include: tasks/packages/tmux.yml
+    - include: tasks/packages/zsh.yml
+    - include: tasks/packages/chromium.yml
+    - include: tasks/packages/vim.yml
+    - include: tasks/packages/git.yml
+    - include: tasks/dotfiles.yml

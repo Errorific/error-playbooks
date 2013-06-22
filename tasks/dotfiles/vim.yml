@@ -1,0 +1,10 @@
+- file: src=/home/error/src/dotfiles/vim/vimrc
+        dest=/home/error/.vimrc
+        state=link
+- file: src=/home/error/src/dotfiles/vim/dotvim
+        dest=/home/error/.vim
+        state=link
+- file: path=/home/error/.vim/bundle
+        state=directory
+- git:  repo=https://github.com/gmarik/vundle
+        dest=/home/error/.vim/bundle/vundle
